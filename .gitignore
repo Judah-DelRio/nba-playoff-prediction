@@ -1,0 +1,12 @@
+# Data files are not committed. Only the small sample files in data/samples/ are.
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+DriveCSVsSpring2026/
+combined_injuries_1997-2025.csv
+!data/samples/*.csv
+
+# Jupyter and Python leftovers
+.ipynb_checkpoints/
+__pycache__/
